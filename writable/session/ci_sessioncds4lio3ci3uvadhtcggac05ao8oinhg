@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1706286215;_ci_previous_url|s:63:"http://localhost/crudprueba/public/index.php/producto/editar/57";mensaje|s:262:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Para registar el nombre minimo debe de tener 6 letras</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:1:{s:7:"mensaje";s:3:"old";}

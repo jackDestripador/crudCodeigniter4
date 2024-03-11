@@ -1,0 +1,11 @@
+CRITICAL - 2024-01-23 23:47:43 --> ErrorException: Undefined variable $baseUrl
+in APPPATH\Views\productos\agregar.php on line 5.
+ 1 APPPATH\Views\productos\agregar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseUrl', 'C:\\xampp\\htdocs\\crudprueba\\app\\Views\\productos\\agregar.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crudprueba\\app\\Views\\productos\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/productos/agregar', [], true)
+ 5 APPPATH\Controllers\Producto.php(37): view('/productos/agregar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Producto->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
